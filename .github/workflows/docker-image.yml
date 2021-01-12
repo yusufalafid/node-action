@@ -24,5 +24,4 @@ jobs:
         image-ref: 'uucp/my-apps:${{ github.sha }}'
         format: 'table'
         exit-code: '1'
-        ignore-unfixed: true
         severity: 'LOW,MEDIUM,HIGH,CRITICAL'
